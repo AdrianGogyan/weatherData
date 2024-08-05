@@ -20,15 +20,18 @@ body{
 
 #app{
     background: linear-gradient(0deg, rgb(236, 186, 49), rgb(128, 128, 248));
-    
+    margin-top: 0;
     height: 100dvh;
     border-radius: 8px;
     
     opacity: 80%;
     width: 100%;
     
+    
     @include largeScreen{
         width: 450px;
+        height: 90dvh;
+        margin-top: 5dvh;
     }
 }
 
@@ -40,6 +43,7 @@ body{
 }
 
 .main{
+    text-shadow: 2px 2px 5px black;
     margin-top: 5em;
     &-city{
         font-size: 1.5em;

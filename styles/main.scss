@@ -72,11 +72,11 @@ body{
     margin: 1.5em 1em 0;
     padding: 0.5em;
 
-    background-color:  rgb(128, 128, 248);
+    background-color:  rgba(107, 107, 192, 0.712);
     border-radius: 10px;
 
     &-header{
-        margin-bottom: 1em;
+        margin: 1em auto;
     }
 
     &-hours{
@@ -87,6 +87,10 @@ body{
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            margin: auto 0.25em;
+            padding: 0.25em;
+            border-radius: 10px;
+            background-color: rgba(128, 128, 248, 0.5);
     
         }
     }
